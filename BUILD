@@ -17,6 +17,7 @@ license(
         "@rules_license//licenses/spdx:Apache-2.0",
     ],
     license_text = "LICENSE",
+    visibility = ["//visibility:public"],
 )
 
 exports_files(["LICENSE"])
